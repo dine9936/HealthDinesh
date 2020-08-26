@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "512747440557",
+    "firebase_url": "https://newhealth-9d31d.firebaseio.com",
+    "project_id": "newhealth-9d31d",
+    "storage_bucket": "newhealth-9d31d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512747440557:android:643fc2f333aac8a79b3924",
+        "android_client_info": {
+          "package_name": "com.dineshkumar.newhealthmantraad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512747440557-sg4gu4to6ednflbcvm03g5ljh8scej7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dineshkumar.newhealthmantraad",
+            "certificate_hash": "f53630e00d1c20af93e2e3866cc39cf77af11475"
+          }
+        },
+        {
+          "client_id": "512747440557-65siqb8ulkgbla51jo6j9vnooupv6s3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Da_6aIoNnorEOZaK1-qZ7Sv9R8DyPpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512747440557-65siqb8ulkgbla51jo6j9vnooupv6s3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512747440557:android:dcf5bd6717aa3bc59b3924",
+        "android_client_info": {
+          "package_name": "com.healthmantra.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512747440557-65siqb8ulkgbla51jo6j9vnooupv6s3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Da_6aIoNnorEOZaK1-qZ7Sv9R8DyPpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512747440557-65siqb8ulkgbla51jo6j9vnooupv6s3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512747440557:android:e729e3590d22db3a9b3924",
+        "android_client_info": {
+          "package_name": "com.rama.newhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512747440557-qk3poh7mai5f82h0m9qu0nalg2bso0r9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rama.newhealth",
+            "certificate_hash": "9df1cbe2471b189193834fe23b11fe82f5f77bc3"
+          }
+        },
+        {
+          "client_id": "512747440557-8ci3vdnklrmsml4cv1sulh1a7rg06qjd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rama.newhealth",
+            "certificate_hash": "f53630e00d1c20af93e2e3866cc39cf77af11475"
+          }
+        },
+        {
+          "client_id": "512747440557-demgddvqh9081dlbtubdn3vf7gooujsp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rama.newhealth",
+            "certificate_hash": "d30221de5818e65374f9bd7affdf845c75964fb4"
+          }
+        },
+        {
+          "client_id": "512747440557-8p64b2tp9sila675o13an9f8916bcrtc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rama.newhealth",
+            "certificate_hash": "a01bd9212cdeca7e8faaa0ed240805f6d95710e4"
+          }
+        },
+        {
+          "client_id": "512747440557-65siqb8ulkgbla51jo6j9vnooupv6s3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Da_6aIoNnorEOZaK1-qZ7Sv9R8DyPpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512747440557-65siqb8ulkgbla51jo6j9vnooupv6s3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

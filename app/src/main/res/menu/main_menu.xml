@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/menu_search" />
+    <item
+        app:showAsAction="ifRoom"
+        android:id="@+id/nav_noti"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/menu_noti" />
+    <item
+        app:showAsAction="ifRoom"
+        android:id="@+id/nav_update"
+        android:icon="@drawable/ic_update"
+        android:title="@string/menu_update" />
+</menu>

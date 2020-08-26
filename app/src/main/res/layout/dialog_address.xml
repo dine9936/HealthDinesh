@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/ib_delivery_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/ic_close_black_24dp"/>
+    <TextView
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_delivery_location"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="LOCATION"
+        android:gravity="start|center"
+        android:padding="8dp"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:background="@drawable/bg_edit_text"/>
+
+    <EditText
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/et_delivery_address"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Address "
+        android:background="@drawable/bg_edit_text"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delivery status"
+        android:id="@+id/tv_delivery_status"/>
+
+    <Button
+        android:id="@+id/button_delivery"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="change"
+        android:background="@drawable/bg_cancel_button"
+        />
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.TermsCondition">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_terms"
+        android:background="@color/colorAccent"
+        app:navigationIcon="@drawable/ic_baseline_clear_24"
+        app:title="Terms Of Services"
+        app:titleTextColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <WebView
+        android:layout_gravity="center"
+        android:id="@+id/webview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+<!--    <androidx.core.widget.NestedScrollView-->
+<!--        android:padding="8dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <LinearLayout-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:padding="4dp"-->
+<!--                android:text="@string/terms_and_condition_delivery" />-->
+
+<!--            <TextView-->
+<!--                android:layout_marginTop="12dp"-->
+<!--                android:textColor="@color/colorPrimary"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="4dp"-->
+<!--                android:text="Refund &amp; Cancellation Policy"/>-->
+<!--            <TextView-->
+<!--                android:layout_marginTop="12dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="4dp"-->
+<!--                android:text="@string/terms_of_delivery_and_refund"/>-->
+
+<!--        </LinearLayout>-->
+<!--    </androidx.core.widget.NestedScrollView>-->
+</LinearLayout>

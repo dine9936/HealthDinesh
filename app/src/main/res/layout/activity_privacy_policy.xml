@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PrivacyPolicy">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_privacy"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Privacy Policy"
+        app:titleTextColor="@android:color/white"
+        android:background="@color/colorAccent"
+        app:navigationIcon="@drawable/ic_baseline_clear_24"/>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/webview2"/>
+<!--    <androidx.core.widget.NestedScrollView-->
+<!--        android:padding="8dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:padding="4dp"-->
+<!--            android:text="@string/Privacy_policy" />-->
+<!--    </androidx.core.widget.NestedScrollView>-->
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderActivity">
+    <androidx.appcompat.widget.Toolbar
+        app:title="Orders"
+        app:titleTextColor="@android:color/white"
+        android:id="@+id/toolbar_order"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_back"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:itemCount="12"
+        tools:listitem="@layout/card_order"/>
+</LinearLayout>

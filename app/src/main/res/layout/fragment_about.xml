@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        android:background="@android:color/white"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".Fragments.AboutFragment"
+        android:scrollbars="none"
+        android:paddingLeft="30dp"
+    app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior"
+        android:paddingRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:paddingBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Natural, Healthy 'n' Fresh Cold Pressed Juice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_light"
+                    android:textColor="#EC3237"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About us"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/RobotoThin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Health Mantra is a cold-pressed juice company providing subscription services of Fruit &amp; Vegetable Juices on daily basis at a specified time at your door-step with customized mix of fruits &amp; vegetable juices as per your taste &amp; requirement."
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="298dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/imsgeaboutus" />
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Mission"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/RobotoThin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Our Mission is to make all people healthy by improving their diets, to prevent people from nutritional deficiencies and realize people the importance of juice and other healthy products."
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Core Values"
+                    android:textColor="#EC3237"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/RobotoThin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="\u2022  No use of Preservatives and Chemicals."
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    style="@style/RobotoThin"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="21dp"
+                    android:text="\u2022  Need Perfection i.e. No compromise with quality."
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+
+                <TextView
+                    style="@style/RobotoThin"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="21dp"
+                    android:text="\u2022  Value for Money"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    style="@style/RobotoThin"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="21dp"
+                    android:text="\u2022  Integrity and Transparency"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+                <TextView
+                    style="@style/RobotoThin"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="21dp"
+                    android:text="\u2022 Overall Growth of nation."
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+                <TextView
+                    style="@style/RobotoThin"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="21dp"
+                    android:text="\u2022  Commitment"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    style="@style/RobotoThin"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="21dp"
+                    android:text="\u2022  Health honesty"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    style="@style/RobotoThin"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="21dp"
+                    android:text="\u2022  Loyalty Maturity"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    style="@style/RobotoThin"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginBottom="44dp"
+                    android:text="\u2022  Purity Purpose"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:src="@drawable/aboutnew"
+                />
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp">-->
+
+<!--                <TextView-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Why Health Mantra ?"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:textSize="30sp" />-->
+<!--            </RelativeLayout>-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp">-->
+
+<!--                <TextView-->
+<!--                    style="@style/RobotoThin"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="\u2022  The People, who are aware about the essentials of Juices and want to have juices are either not not able to get the 100% Natural, Fresh, Hygienically made, Cold-pressed Fruit and Vegetable Juices at their home, offices or wherever they want to have, or they are using tetra pack juices like Real (by Dabour ), Tropicana (By PepsiCo), Minute Maid (By Coca Cola) which is not in any way healthier actually it is full of Sugar and Water."-->
+<!--                    android:textColor="#000000"-->
+<!--                     />-->
+<!--            </RelativeLayout>-->
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp">-->
+
+<!--                <TextView-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Challenging Solution"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:textSize="24sp" />-->
+<!--            </RelativeLayout>-->
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="\u2022 Our Company will aware the people about the benefits of Juices, Sprouts, dairy products, healthy lunch etc. "-->
+<!--                    android:textColor="#000000"-->
+<!--                    style="@style/RobotoThin"-->
+<!--                    android:textSize="18sp" />-->
+<!--            </RelativeLayout>-->
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="\u2022 We will provide 100% Natural, Fresh, Hygienically made Cold-pressed Fruit and Vegetable Juices at their home, offices or wherever they want to have."-->
+<!--                    android:textColor="#000000"-->
+<!--                    style="@style/RobotoThin"-->
+<!--                    android:textSize="18sp" />-->
+<!--            </RelativeLayout>-->
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp">-->
+
+<!--                <TextView-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:text="Ambition"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:textSize="24sp" />-->
+<!--            </RelativeLayout>-->
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:text="\u2022 We want to see all of you healthy and To prevent the people from Nutritional Deficiencies / Malnutrition"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="#000000"-->
+<!--                    style="@style/RobotoThin"-->
+<!--                    android:textSize="18sp" />-->
+<!--            </RelativeLayout>-->
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp">-->
+
+<!--                <TextView-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Why a consumer should buy our product ?"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:textSize="30sp" />-->
+<!--            </RelativeLayout>-->
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text=".Our company is providing cold pressed juices which maintains all the nutrition's.\n.Our company takes care of full hygiene which is very much necessary.\n( We are having contactless process from processing of foods till delivery of the juices.)\n( Daily morning starts with temperature checking of all the employees, hand wash &amp; sanitization frequently, compulsory use of protective clothing's ( like mask, hand gloves, head cover and shoe cover), frequent cleaning of machines &amp; factory, processing of food with untouched human hands, cleaning of Bottles and other items with a good SOP.)\nOur company is providing 100% Real Juices of fruits and vegetables.\n(100 % Natural &amp; Real as we are not using any water, any preservatives like chemicals, essence etc.)\n.Our company is not using any preservative, chemicals and any health hazardous items.\n(No ( Not at all ) that’s why our products are perishable and can't be kept for longer hours.)\nOur company will deliver the products with free of cost delivery.\n	.Our company is having transparent process where no cheating is done by company i.e. what you required would be provided to you.\n-->
+<!--.Our company will provide you subscription services where we will deliver the product daily timely as per your requirement free of cost.\n-->
+<!--.Our company is having a large range of fruit and vegetable juices where customers are having many options to choose.\n-->
+<!--.Our company is providing value for money i.e. at affordable and reasonable price.\n-->
+<!--.Our company will deliver the product on timely basis to maintain your timely diet.\n-->
+<!--.Our company is delivering all over the lucknow."-->
+<!--                    android:textColor="#000000"-->
+<!--                    style="@style/RobotoThin"-->
+<!--                    android:textSize="18sp" />-->
+<!--            </RelativeLayout>-->
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We are committed to make first priority to your health."/>
+        </LinearLayout>
+    </ScrollView>
+
+

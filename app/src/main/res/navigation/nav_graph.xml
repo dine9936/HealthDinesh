@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.rama.newhealth.Fragments.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.rama.newhealth.Fragments.AboutFragment"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.rama.newhealth.Fragments.ContactFragment"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.rama.newhealth.SearchFragment"
+        tools:layout="@layout/fragment_search" />
+    <activity
+        android:id="@+id/nav_subscription"
+        android:name="com.rama.newhealth.Activity.SubscrActivity"
+        tools:layout="@layout/activity_subscr" />
+    <fragment
+        android:id="@+id/nav_refer"
+        android:name="com.rama.newhealth.ReferFragment"
+        tools:layout="@layout/fragment_refer" />
+    <activity
+        android:id="@+id/nav_wallet"
+        android:name="com.rama.newhealth.Wallet"
+        tools:layout="@layout/activity_wallet" />
+    <activity
+        android:id="@+id/nav_profile"
+        android:name="com.rama.newhealth.Activity.ProfileActivity"
+        tools:layout="@layout/activity_profile" />
+    <activity
+        android:id="@+id/nav_order"
+        android:name="com.rama.newhealth.OrderActivity"
+        tools:layout="@layout/activity_order" />
+
+</navigation>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+            android:title="@string/menu_wallet" />
+        <item
+            android:id="@+id/nav_subscription"
+            android:icon="@drawable/ic_subscription"
+            android:title="@string/menu_subscription" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_order"
+            android:title="@string/menu_order" />
+        <item
+            android:id="@+id/nav_refer"
+            android:icon="@drawable/ic_refer"
+            android:title="@string/menu_refer" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_us"
+            android:title="@string/menu_about" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_phone"
+            android:title="@string/menu_contact" />
+        <item
+            android:id="@+id/nav_term"
+            android:icon="@drawable/ic_terms_of_use"
+            android:title="@string/menu_terms" />
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_privacy"
+            android:title="@string/menu_privacy" />
+        <item
+            android:icon="@drawable/ic_logout"
+            android:id="@+id/nav_logout"
+            android:title="@string/menu_logout" />
+
+    </group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/group3">
+
+
+    </group>
+
+</menu>

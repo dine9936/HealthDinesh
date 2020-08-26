@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Wallet"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_back"
+        android:background="@color/colorAccent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/RobotoBold"
+                    android:id="@+id/text_item_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="Wallet"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/ib_wallet_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_hist" />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_below="@+id/toolbar_wallet"
+        android:id="@+id/ll_balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginStart="15dp"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"
+            android:textColor="#535353"
+            android:text="Wallet Balance"
+            android:layout_marginLeft="15dp" />
+        <TextView
+            android:layout_marginStart="15dp"
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#EC3237"
+            android:text="0"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/ic_rupee_small"
+            android:textSize="24dp"
+            android:layout_marginLeft="15dp" />
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_below="@id/ll_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:background="#8E8585"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:id="@+id/ll_topup_wallet"
+        android:layout_below="@id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topup Wallet"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp" />
+        <TextView
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add money to your wallet and make one click payments"
+            android:textSize="12sp"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+
+
+    <EditText
+        android:text="1500"
+        android:id="@+id/et_amount"
+        android:layout_below="@id/ll_topup_wallet"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="23dp"
+        android:background="@drawable/rectangle3"
+        android:drawableLeft="@drawable/ic_rupee_small"
+        android:drawablePadding="10dp"
+        android:hint="Enter Amount"
+        android:inputType="number"
+        android:padding="10dp" />
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_fixamount"
+        android:layout_below="@id/et_amount"
+        android:padding="8dp"
+        android:layout_marginStart="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp">
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="60dp"
+            android:layout_margin="8dp"
+            android:layout_height="30dp"
+            android:textColor="#EC3237"
+            android:background="@drawable/bg_wallet_button"
+            android:text="₹ 500" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="80dp"
+            android:layout_margin="8dp"
+            android:textColor="#EC3237"
+            android:layout_height="30dp"
+            android:background="@drawable/bg_wallet_button"
+            android:text="₹ 1500" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_margin="8dp"
+            android:textColor="#EC3237"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@drawable/bg_wallet_button"
+            android:text="₹ 3000" />
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_below="@id/ll_fixamount"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="23dp"
+        android:background="@drawable/rectangle3"
+        android:drawablePadding="10dp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/tv_email_validate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_email"
+        android:layout_marginLeft="23dp"/>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/ll_fixamount"-->
+<!--        android:padding="8dp"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:layout_marginTop="8dp"-->
+
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Want Refund?"-->
+<!--            android:textSize="16sp"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text=" Make a refund request."-->
+<!--            android:textColor="#EC3237"-->
+<!--            android:textSize="16sp"-->
+<!--            />-->
+
+
+
+<!--    </LinearLayout>-->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#EC3237"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:text="TOPUP WALLET" />
+
+
+
+</RelativeLayout>
